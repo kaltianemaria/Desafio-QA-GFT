@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <projectId>10001</projectId>
+    <projectKey>ODDUQPTMF</projectKey>
+    <exportDate>2022-12-19 00:19:21 UTC</exportDate>
+    <folders>
+        <folder fullPath="Test login" index="0"/>
+    </folders>
+    <testCases>
+        <testCase id="76887022" key="ODDUQPTMF-T1">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Kaltiane Maria Gomes da Silva</createdBy>
+            <createdOn>2022-12-13 00:55:56 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Test login]]></folder>
+            <issues>
+                <issue>
+                    <key>ODDUQPTMF-2</key>
+                    <summary><![CDATA[como usuário desejo acessar a página de login na loja virtual a fim de visualizar opções de login, cadastro e redefinição de senha]]></summary>
+                </issue>
+            </issues>
+            <labels/>
+            <name><![CDATA[Swaglabsshopping]]></name>
+            <objective><![CDATA[test]]></objective>
+            <owner>637bb7fa9960988ef6bd6bc5</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="plain">
+                <details><![CDATA[1. Cliente sem cadastro deseja criar uma conta<br />2. Cliente sem cadastro tenta fazer login<br />3. Cliente com cadastro informa dados incorretos ao tentar fazer login]]></details>
+            </testScript>
+        </testCase>
+        <testCase id="77226244" key="ODDUQPTMF-T3">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Kaltiane Maria Gomes da Silva</createdBy>
+            <createdOn>2022-12-18 23:14:02 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Test login]]></folder>
+            <issues>
+                <issue>
+                    <key>ODDUQPTMF-3</key>
+                    <summary><![CDATA[Como usuário, desejo preencher formulário para criação de conta na loja virtual]]></summary>
+                </issue>
+            </issues>
+            <labels/>
+            <name><![CDATA[Swaglabsshopping 2]]></name>
+            <objective><![CDATA[<p>Usu&aacute;rio dever&aacute; visualizar bot&atilde;o para acessar tela de cadastro do sistema.</p><p>Usu&aacute;rio dever&aacute; visualizar e preencher formul&aacute;rio de cadastro no sistema.</p><p>Usu&aacute;rio dever&aacute; visualizar bot&atilde;o para finalizar cadastro no sistema.</p>]]></objective>
+            <owner>637bb7fa9960988ef6bd6bc5</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="plain">
+                <details><![CDATA[<p>1. Usu&aacute;rio dever&aacute; visualizar bot&atilde;o para acessar tela de cadastro do sistema.</p><p>2. Usu&aacute;rio dever&aacute; visualizar e preencher formul&aacute;rio de cadastro no sistema.</p><p>3. Usu&aacute;rio dever&aacute; visualizar bot&atilde;o para finalizar cadastro no sistema.</p>]]></details>
+            </testScript>
+        </testCase>
+        <testCase id="77226370" key="ODDUQPTMF-T5">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Kaltiane Maria Gomes da Silva</createdBy>
+            <createdOn>2022-12-18 23:44:38 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Test login]]></folder>
+            <issues>
+                <issue>
+                    <key>ODDUQPTMF-2</key>
+                    <summary><![CDATA[como usuário desejo acessar a página de login na loja virtual a fim de visualizar opções de login, cadastro e redefinição de senha]]></summary>
+                </issue>
+            </issues>
+            <labels/>
+            <name><![CDATA[Swaglabsshopping BDD]]></name>
+            <owner>637bb7fa9960988ef6bd6bc5</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="bdd">
+                <details><![CDATA[Given que o usuário deverá visualizar formulário para fazer login e entrar na loja virtual
+When o usuário deverá visualizar botão para acessar tela de cadastro do sistema
+Then deverá visualizar botão para acessar tela 'Esqueci minha senha']]></details>
+            </testScript>
+        </testCase>
+        <testCase id="77226385" key="ODDUQPTMF-T6">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Kaltiane Maria Gomes da Silva</createdBy>
+            <createdOn>2022-12-18 23:57:41 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Test login]]></folder>
+            <issues>
+                <issue>
+                    <key>ODDUQPTMF-3</key>
+                    <summary><![CDATA[Como usuário, desejo preencher formulário para criação de conta na loja virtual]]></summary>
+                </issue>
+            </issues>
+            <labels/>
+            <name><![CDATA[Swaglabsshopping 2 BDD]]></name>
+            <owner>637bb7fa9960988ef6bd6bc5</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="bdd">
+                <details><![CDATA[Given usuário deverá visualizar botão para acessar tela de cadastro do sistema.
+When usuário deverá visualizar e preencher formulário de cadastro no sistema.
+Then usuário deverá visualizar botão para finalizar cadastro no sistema.]]></details>
+            </testScript>
+        </testCase>
+    </testCases>
+</project>
